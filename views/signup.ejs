@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body{
+            font-family: 'EB Garamond';font-size: 18px;
+        }
+        </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+</head>
+<body>
+  <center>
+    <h1>SignUp</h1>
+    <form method="POST" action="/user/signup">
+        <label >Name:</label>
+        <input type="text" required name="name">
+        <br>
+        <label >Email:</label>
+        <input type="text" required name="email">
+        <br>
+        <label >Password:</label>
+        <input type="password" required name="password"><br>
+        <button type="submit" class="submit">Signup</button>
+    </form><br>
+    <a href="https://compact-url.vercel.app/user/login" >Login?</a>
+</center>
+</body>
+</html>
